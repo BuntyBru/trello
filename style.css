@@ -1,0 +1,145 @@
+html {
+  background-color: #0f0f11;
+}
+
+body,
+button,
+html,
+input,
+select,
+textarea {
+  color: #4d4d4d;
+  font: 14px "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 20px;
+  margin: 0;
+}
+
+.deleteCard {
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.navBar {
+  background: #19191c;
+  color: white;
+  font-family: "Times New Roman", Georgia, Serif;
+  padding: 10px;
+  font-size: 50px;
+  text-align: center;
+  overflow: hidden;
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
+
+.navBar img {
+  width: 90px;
+}
+
+.add_list_form {
+  background: #aba5a5;
+  border-radius: 3px;
+  margin: 0 5px;
+  max-height: 100%;
+  position: fixed;
+  width: 222px;
+  cursor: pointer;
+  right: 30px;
+}
+
+.form-button {
+  min-height: 19px;
+  padding: 8px 34px 8px 10px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+#container {
+  padding: 80px 20px;
+}
+
+.form_parent {
+  margin: 5px;
+}
+
+#list_container {
+  display: flex;
+  margin-top: 45px;
+}
+
+.list_parent {
+  background: #aba5a5;
+  font-size: 15px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 10px;
+}
+
+.top_shelf {
+  background: white;
+  display: flex;
+  padding: 15px;
+}
+
+.list_title_name {
+  text-align: center;
+  font-weight: 600;
+  flex: 1;
+  margin: 0px;
+}
+
+.list_cardlist,
+.add_cards {
+  padding: 15px;
+}
+
+.add_cards {
+  text-align: center;
+}
+
+.add_cards button {
+  margin-bottom: 10px;
+}
+
+.card_form_parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_form_parent input {
+  margin-bottom: 10px;
+}
+
+.card-list {
+  padding: 10px 15px;
+}
+
+.card-list > div {
+  padding: 10px;
+  background: white;
+  margin-bottom: 12px;
+}
+
+.card-entry-main-parent {
+  display: flex;
+}
+
+.card-entry-main-parent > div {
+  flex: 1;
+}
+
+.card-entry-main-parent > div p:first-child {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.card-entry-main-parent button {
+  height: 28px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.card-entry-main-parent p {
+  margin: 0;
+}
